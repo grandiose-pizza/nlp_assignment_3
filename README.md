@@ -5,7 +5,7 @@ Finetune a model using peft adapters.
 You may use any python library like transformers and/or bits&bytes etc.
 PEFT offers parameter-efficient training methods. This method relies on a method called Low Rank Adaptoers (LoRA). Instead of fine-tuning the entire model you just have to fine-tune these adapters and load them properly inside the model.
 
-Please use a small dataset like []"Abirate/english_quotes"](https://huggingface.co/datasets/Abirate/english_quotes) to finetune on a small model like []"facebook/opt-125m"](https://huggingface.co/facebook/opt-125m).
+Please use a small dataset like ["Abirate/english_quotes"](https://huggingface.co/datasets/Abirate/english_quotes) to finetune on a small model like ["facebook/opt-125m"](https://huggingface.co/facebook/opt-125m).
 
 ## Format Requirements
 - Fork or clone this repo
